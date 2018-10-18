@@ -1,0 +1,43 @@
+#a {
+    display: inline-block;
+}
+
+#b {
+    display: inline-block;
+}
+
+.incorrectInput {
+    color: red;
+}
+
+.lightNumber {
+    background-color: goldenrod;
+}
+
+#answer {
+    width: 50px;
+    font-size: 27px;
+    font-family: Calibri;
+}
+input:disabled {
+    color: #000000;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+#exercise {
+    margin-top: 100px;
+    font-family: Calibri;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#exercise > span {
+    vertical-align: middle;
+}
+#scale {
+    position: relative;
+    width: 875px;
+    margin: 0 auto;
+}
